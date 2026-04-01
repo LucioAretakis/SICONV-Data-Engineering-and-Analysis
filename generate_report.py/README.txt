@@ -1,8 +1,3 @@
-O Gemini disse
-Este script é uma peça fundamental da sua automação, pois ele fecha o ciclo entre o dado estruturado no PostgreSQL e a entrega de valor para o gestor em formato PDF.
-
-Aqui está uma proposta de README.md focada na funcionalidade técnica e no valor de negócio que esse código entrega:
-
 📑 Automação de Relatórios em PDF (generate_report.py)
 Este módulo é responsável por extrair dados financeiros do banco de dados, gerar visualizações gráficas e consolidar as informações em um relatório técnico em formato PDF de forma 100% automatizada.
 
