@@ -1,6 +1,9 @@
-# 📊 Análise de dados do SICONV
+<img width="1283" height="719" alt="Captura de tela 2026-04-01 180438" src="https://github.com/user-attachments/assets/c3f7922f-2b78-4087-b4f8-998f9eaa006e" /># 📊 Análise de dados do SICONV
 
 O cliente deseja visualizar e analisar dados referentes a convênios operacionalizados por meio do Sistema de Gestão de Convênios e Contratos de Repasse – SICONV. Os dados estão disponíveis publicamente em formato CSV no repositório oficial do governo: [https://repositorio.dados.gov.br/seges/detru/](https://repositorio.dados.gov.br/seges/detru/)
+
+<img width="1283" height="719" alt="Captura de tela 2026-04-01 180438" src="https://github.com/user-attachments/assets/f22b7ac0-3e84-4bf6-822e-978af5a72f97" />
+
 
 ---
 
