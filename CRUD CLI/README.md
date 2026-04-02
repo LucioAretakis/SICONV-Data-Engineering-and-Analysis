@@ -37,7 +37,6 @@ O script oferece um menu interativo com as seguintes capacidades:
 
 Certifique-se de que o arquivo `connection.py` está no mesmo diretório e contém a variável `db_pass`:
 
-```python
 # connection.py
 db_pass = "sua_senha_aqui"
 
