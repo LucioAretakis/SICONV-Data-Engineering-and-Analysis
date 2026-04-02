@@ -1,4 +1,4 @@
-```
+```Markdown
 # 🖥️ CRUD CLI - Gestão de Convênios
 
 Esta é uma interface de linha de comando desenvolvida em Python para realizar operações de manutenção diretamente no banco de dados **PostgreSQL**. O sistema permite o ciclo completo de gerenciamento de dados (*Create, Read, Update, Delete*) de forma segura e interativa.
