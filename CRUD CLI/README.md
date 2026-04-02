@@ -1,3 +1,4 @@
+```
 # 🖥️ CRUD CLI - Gestão de Convênios
 
 Esta é uma interface de linha de comando desenvolvida em Python para realizar operações de manutenção diretamente no banco de dados **PostgreSQL**. O sistema permite o ciclo completo de gerenciamento de dados (*Create, Read, Update, Delete*) de forma segura e interativa.
@@ -27,24 +28,44 @@ O script oferece um menu interativo com as seguintes capacidades:
 ### Pré-requisitos
 Certifique-se de que o arquivo `connection.py` está no mesmo diretório e contém a variável `db_pass`.
 
-
+```python
 # connection.py
 db_pass = "sua_senha_aqui"
 
-##Execução
-Abra o terminal na pasta do projeto.
 
-Execute o comando:
-
-Bash
+### Execução
+1. Abra o terminal na pasta do projeto.
+2. Execute o comando:
+```bash
 python crud_cli.py
-Siga as instruções numeradas no menu interativo.
 
-##🛡️ Tratamento de Erros e Resiliência
+3. Siga as instruções numeradas no menu interativo.
+
+---
+
+## 🛡️ Tratamento de Erros e Resiliência
+
 O sistema está preparado para lidar com diversas situações adversas:
 
-Falhas de Conexão: Encerra o script com uma mensagem clara caso o banco de dados esteja offline ou as credenciais estejam incorretas.
+### 🔌 Falhas de Conexão
 
-Transações Interrompidas: Em caso de erro durante a inserção ou exclusão, o sistema realiza um rollback automático, garantindo que a consistência do banco de dados não seja afetada.
+Status: Erro de Conexão
+Ação: O script encerra a execução com uma mensagem clara caso o banco de dados 
+      esteja offline ou as credenciais estejam incorretas.
 
-Validação de Entrada: Tratamento para garantir que tipos de dados (como números de convênio e datas) sejam processados corretamente antes de chegarem ao banco.
+
+### 🔄 Transações Interrompidas (Rollback)
+
+Status: Falha na Operação SQL
+Ação: Em caso de erro durante a inserção ou exclusão, o sistema realiza um 
+      rollback automático, garantindo que a consistência do banco não seja afetada.
+
+
+### 📝 Validação de Entrada
+
+Status: Dado Inválido Detectado
+Ação: Tratamento para garantir que tipos de dados (como números de convênio e 
+      datas) sejam processados corretamente antes de chegarem ao banco.
+
+```
+
