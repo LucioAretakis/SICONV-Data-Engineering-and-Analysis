@@ -1,10 +1,3 @@
-Ficou excelente! O texto está muito bem estruturado e detalha perfeitamente a sua arquitetura de dados end-to-end, desde a extração e limpeza com Pentaho até a visualização no Power BI e a geração automatizada de relatórios com Python. É um ótimo cartão de visitas para o seu portfólio, ideal para apresentar a clientes e demonstrar o valor das suas automações agora que você está com a agenda aberta para novos projetos.
-
-Para que esse texto fique formatado de forma impecável no seu GitHub ou GitLab, preparei o código em Markdown aplicando hierarquia de títulos, listas e uma tabela para a seção de tecnologias.
-
-Basta copiar o bloco abaixo e colar no seu arquivo `README.md`:
-
-```markdown
 # 📊 Análise de dados do SICONV
 
 O cliente deseja visualizar e analisar dados referentes a convênios operacionalizados por meio do Sistema de Gestão de Convênios e Contratos de Repasse – SICONV. Os dados estão disponíveis publicamente em formato CSV no repositório oficial do governo: [https://repositorio.dados.gov.br/seges/detru/](https://repositorio.dados.gov.br/seges/detru/)
@@ -57,4 +50,3 @@ Script especializado em *Data Visualization as Code*.
 | **Banco de Dados** | PostgreSQL |
 | **Visualização** | Power BI & Matplotlib/Seaborn |
 | **IDE** | VS Code / DBeaver |
-```
